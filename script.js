@@ -6,9 +6,9 @@ const studentTable = document.getElementById("studentData");
 document.addEventListener("DOMContentLoaded", loadStudents);
 
 // Listen for the form submission event and handle adding a new student record
-form.addEventListener("submit", function(event) {
-  event.preventDefault(); 
-  addStudent();          
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+  addStudent();
 });
 
 // Function to validate inputs and add a new student record to localStorage and table
@@ -31,8 +31,8 @@ function addStudent() {
 
   // Validation: Ensure no input is empty, to prevent adding empty rows
   if (!name || !studentClass || !address || !id || !email || !contact) {
-    alert("Please fill all fields.");  
-    return;                            
+    alert("Please fill all fields.");
+    return;
   }
 
   // Validate student name contains only letters (a-z, A-Z) and spaces

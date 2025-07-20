@@ -1,5 +1,5 @@
 **# Student Registration System**
-A simple web-based application to manage student records. 
+A simple web-based application to manage student records.
 Users can add, edit, and delete student details such as name, class, address, student ID, email, and contact number.
 Data is saved in localStorage for persistence.
 
@@ -18,9 +18,9 @@ Edit or delete existing records via the buttons in the table.
 **## Technologies**
 HTML5
 CSS3
-JavaScript 
+JavaScript
 
 **## Author
 **
 Your Name : khushbu kumari
-GitHub: [YourGitHubLink]
+GitHub: https://github.com/KhushbuKumari21/Student-Registraion-website.git

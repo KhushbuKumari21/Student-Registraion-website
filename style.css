@@ -1,6 +1,5 @@
-/* Global Styles */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   background-color: #f4f7f8;
   color: #333;
@@ -9,7 +8,7 @@ body {
 
 /* Header CSS */
 header {
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
   padding: 30px 20px;
   text-align: center;
@@ -55,7 +54,7 @@ main {
 
 .form-section h2 {
   font-size: 2rem;
-  color: #007BFF;
+  color: #007bff;
   font-weight: 700;
   text-align: center;
   margin-bottom: 25px;
@@ -83,7 +82,7 @@ form input {
 }
 
 form input:focus {
-  border-color: #007BFF;
+  border-color: #007bff;
   outline: none;
 }
 
@@ -91,7 +90,7 @@ form input:focus {
 form button {
   padding: 14px;
   font-size: 1.1rem;
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 30px;
@@ -114,7 +113,7 @@ form button:hover {
 
 .table-section h2 {
   font-size: 2rem;
-  color: #007BFF;
+  color: #007bff;
   font-weight: 700;
   text-align: center;
   margin-bottom: 25px;
@@ -141,14 +140,15 @@ table {
 }
 
 thead {
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
   position: sticky;
   top: 0;
   z-index: 1;
 }
 
-th, td {
+th,
+td {
   padding: 14px 15px;
   text-align: center;
   border-bottom: 1px solid #ddd;
@@ -214,7 +214,8 @@ tbody tr:nth-child(even) {
     min-width: 100%;
   }
 
-  th, td {
+  th,
+  td {
     padding: 10px;
   }
 
